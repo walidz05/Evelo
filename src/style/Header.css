@@ -1,0 +1,219 @@
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  min-height: 90px;
+}
+
+.navbar-brand {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  position: relative;
+  z-index: 9999;
+  position: relative;
+}
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+.navbar-light .navbar-brand:hover {
+  color: #bdc3c7;
+}
+.navbar-brand::after {
+  content: "ELECTRIC BICYCLES";
+  position: absolute;
+  bottom: 9px;
+  left: 35px;
+  color: black;
+  font-size: 7px;
+  font-family: "cairo";
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.grid-navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.flex-nav {
+  flex: 2;
+  justify-content: center;
+}
+.flex-nav li {
+  padding: 10px 20px;
+}
+
+.cart i {
+  color: #fff;
+  z-index: 9999;
+  position: relative;
+  margin-top: 20px;
+}
+.cart i:hover {
+  opacity: 0.8;
+  transition: all 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+  font-size: 12px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 12px;
+  z-index: 9999;
+  position: relative;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #bdc3c7;
+}
+
+.header {
+  position: relative;
+  height: 110vh;
+  width: 100%;
+  background-image: url("../images/coen-van-de-broek-OFyh9TpMyM8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.header::before {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  left: 0;
+  background-color: #ecf0f1;
+  content: "";
+  height: 120px;
+  z-index: 9999;
+}
+
+/* header content */
+
+.header__section {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  z-index: 9999;
+}
+.header__section .header__title {
+  color: #fff;
+  font-size: 110px;
+  width: 50%;
+  font-weight: 900;
+}
+
+.header__section .header__paragraph {
+  color: #fff;
+  width: 40%;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.header__barside {
+  position: absolute;
+  right: 0;
+  background-color: #f15a22;
+  width: 300px;
+  height: 90px;
+  line-height: 90px;
+  color: #fff;
+  bottom: 10%;
+  z-index: 9999;
+  overflow: hidden;
+  bottom: 15%;
+}
+
+.header__elem {
+  padding: 0 50px;
+}
+.header__elem p {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.border__header {
+  height: 100%;
+  position: relative;
+}
+
+.border__header span {
+  width: 15px;
+  height: 2px;
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__circle {
+  position: absolute;
+  bottom: 40%;
+  left: 15%;
+  z-index: 9999;
+}
+
+.cirle {
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.header__circle .cirle i {
+  color: white;
+  font-size: 20px;
+}
+
+.text_rotate {
+  position: absolute;
+  z-index: 9999;
+  height: 100%;
+  top: 170px;
+}
+
+.text_rotate::after {
+  width: 2px;
+  height: 80px;
+  content: "";
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  bottom: -73%;
+  opacity: 0.5;
+}
+
+.text_rotate p {
+  color: white;
+  font-size: 9px;
+  letter-spacing: 3px;
+  transform: rotate(90deg);
+  opacity: 0.5;
+}

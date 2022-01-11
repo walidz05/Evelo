@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-weight: bold;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  height: 3000px;
+  overflow-x: hidden;
+  background-color: #ecf0f1;
+  height: 6000px;
+}
+
+@import url("./style/Header.css");
+@import url("./style/Features.css");
+@import url("./style/Reviews.css");
+@import url("./style/Products.css");
+@import url("./style/Evelo.css");
+@import url("./style/Services.css");
+@import url("./style/Footer.css");

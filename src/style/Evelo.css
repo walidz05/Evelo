@@ -1,0 +1,227 @@
+.why_evelo {
+  background-color: #fff;
+  margin-left: 40px;
+  padding-top: 150px;
+  position: relative;
+  padding-bottom: 120px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side__list_evelo {
+  position: absolute;
+  right: 7%;
+  top: 32%;
+}
+.side__list_evelo ul li {
+  padding-bottom: 51px;
+  color: gray;
+  opacity: 0.8;
+}
+.side__list_evelo ul li:nth-child(2) {
+  position: relative;
+  color: #f15a22;
+}
+.side__list_evelo ul li:nth-child(2)::after {
+  position: absolute;
+  top: 17%;
+  right: -987%;
+  width: 442px;
+  height: 2px;
+  background-color: #f15a22;
+  content: "";
+  text-align: center;
+}
+
+.why_evelo::after {
+  content: "02";
+  position: absolute;
+  left: 50%;
+  top: -10%;
+  font-size: 350px;
+  font-weight: bold;
+  color: #f15a22;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.img__evelo_content {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.heading__evelo {
+  font-size: 70px;
+  font-weight: bold;
+  position: relative;
+  height: 100%;
+}
+.evelo_bike {
+}
+.evelo_bike img {
+  max-width: 70%;
+}
+
+.sub_evelo_description {
+  position: absolute;
+  bottom: 0;
+  width: 20%;
+  left: 18%;
+}
+.sub_evelo_description p {
+  font-size: 14px;
+  color: gray;
+  opacity: 0.8;
+}
+.sub_evelo_description h3 {
+  font-weight: bold;
+}
+
+.evelo_second {
+  padding-top: 100px;
+  background-color: #fff;
+  margin-left: 40px;
+}
+.img_vello_seccond {
+  text-align: right;
+}
+
+.img_vello_seccond img {
+  max-width: 70%;
+}
+.img_vello_seccond img {
+  position: relative;
+  overflow: hidden;
+}
+
+.img_vello_seccond img::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+
+.des_vello_seconde {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.des_vello_seconde p {
+  width: 60%;
+  font-size: 14px;
+  color: black;
+  opacity: 0.9;
+  line-height: 2;
+}
+
+.des_vello_seconde i {
+  color: #f15a22;
+  margin-left: 10px;
+}
+
+.des_vello_seconde span {
+  color: #f15a22;
+}
+
+/* //thirty  */
+
+.evelo_thirty {
+  background-color: #fff;
+  padding: 120px 0;
+  margin-left: 40px;
+  position: relative;
+}
+
+.evelo_thirty::after {
+  content: "";
+  position: absolute;
+  top: 44%;
+  left: 26%;
+  background-color: #d35400;
+  width: 50%;
+  height: 188px;
+}
+
+.evelo_thirty::before {
+  content: "";
+  position: absolute;
+  top: 44%;
+  left: 44%;
+  background-color: #d35400;
+  height: 30%;
+  width: 188px;
+}
+
+.evelo_content {
+  display: flex;
+}
+.evelo_content .evelo_left {
+  flex: 1;
+  padding-left: 200px;
+  margin: auto 0;
+}
+.evelo_right {
+  flex: 3;
+  position: relative;
+
+  text-align: center;
+}
+
+.evelo_right::after {
+  position: absolute;
+  content: "";
+  left: 114px;
+  top: 50%;
+  height: 400px;
+  background-color: #d35400;
+  width: 180px;
+  opacity: 0.4;
+}
+
+.evelo_content__second {
+  display: flex;
+  position: relative;
+  z-index: 9999;
+}
+
+.evelo_content__second .evelo_left__seconde {
+  flex: 1;
+  padding-left: 200px;
+  margin: auto 0;
+}
+
+.evelo_right__seconde {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  padding-left: 100px;
+}
+
+.evelo_right__seconde p {
+  width: 60%;
+  color: gray;
+  opacity: 0.8;
+  font-size: 13px;
+  line-height: 2;
+}
+
+span {
+  color: #f15a22;
+}
+
+.evelo_left__seconde {
+  padding-bottom: 40px;
+}
